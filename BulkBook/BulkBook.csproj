@@ -15,4 +15,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.10" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BulkBook.DataAccess\BulkBook.DataAccess.csproj" />
+    <ProjectReference Include="..\BulkBook.Models\BulkBook.Models.csproj" />
+    <ProjectReference Include="..\BulkBook.Utility\BulkBook.Utility.csproj" />
+  </ItemGroup>
+
 </Project>
